@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Rosa Animada para Ángela</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Mueve el elemento <audio> al final del body -->
+    <h1>Para mi querida Ángela</h1>
+    <div class="rose-message-container">
+        <div class="rose-container">
+            <canvas id="roseCanvas"></canvas>
+        </div>
+        <div class="message-box" id="messageBox">
+            <h2>Carta para Ángela</h2>
+            <p>Haz clic en los pétalos para leer mensajes especiales.</p>
+        </div>
+    </div>
+
+    <!-- Mueve el script antes del audio -->
+    <script src="script.js"></script>
+
+    <!-- Coloca el elemento <audio> al final para mayor compatibilidad -->
+    <audio id="backgroundMusic" loop>
+        <source src="pidemelaluna.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
